@@ -1,0 +1,259 @@
+@media screen and (max-width:650px) {
+    .carousel .list .item .content{
+        padding-right: 0;
+    }
+    .carousel .list .item .content .title{
+        font-size:25px;
+    }
+   header a{
+        font-size:15px;
+    }
+    .f-rights::after{
+        width:0;
+       }
+       .f-rights::before{
+        width:0;
+       }
+       footer{
+         height: 900px;
+         flex-direction: column;
+         padding: 13px;
+       }
+       .wrap{
+        padding:0;
+        gap:30px;
+        padding-bottom:50px;
+        flex-direction: column;
+       }
+
+       .f-cont{
+        margin-left:10px;
+       }
+       .f-cont1{
+        margin-left:10px;
+       }
+       .wrap img{
+        width:200px;
+        height:200px; 
+       }
+       
+    .add-cart{
+        padding: 0px 50px 50px;
+    }
+    
+    .add-cart .heading-1{
+        padding-top: 30px;
+        font-size: 40px;
+        padding-bottom: 0px;
+    }
+    
+    .add-list{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .active .card {
+        left: calc(100% - 339px);
+    }
+    
+    .card {
+        width: 339px;
+        height: 100vh;
+    
+    
+    }  
+    .shopping{
+        top: 2px;
+    }
+    
+    #form{
+        height:520px;
+    }
+    
+    #login-box{
+        height: 390px;
+    }
+    
+    #form>h1{
+        padding: 10px;
+        font-size: 2.3rem;
+    }
+    
+    .right{
+        background: none ;
+    }
+    
+    .left{
+        width: 100%;
+    }
+    
+
+}
+@media only screen and (min-width:650px) and (max-width:900px) {
+    .carousel .list .item .content{
+        padding-right: 0;
+    }
+    .carousel .list .item .content .title{
+        font-size:50px;
+    }
+
+}
+@media screen and (min-width:300px) and (max-width:480px){
+    .about-sec{
+        flex-direction: column;
+        height:1380px;
+        padding: 20px;
+    }
+    .about-para p {
+          font-size:15px;
+    }
+    .about-para{
+        width:100%;
+    }
+    .about-sec img{
+        width:280px;
+        height:300px;
+    }
+     .container-box .card-box {
+        width:280px;
+    }
+    .container-box .card-box img {
+        width:240px;
+        right:57px;
+        position: absolute;
+  }
+  .container-box{
+      height:1300px;
+      padding:unset;
+  }
+  .heading { 
+    font-size:30px;
+    padding-top:60px;
+}    
+header a{
+    font-size:13px;
+    margin-right:10px;
+}
+.f-cont h3{
+    font-size: 15px;
+}
+.f-cont1 h3{
+    font-size: 15px;
+}
+.f-cont p{
+    font-size:15px;
+}
+.f-cont1 p{
+    font-size:12px;
+}
+.f-cont a{
+    font-size:15px;
+}
+
+}
+@media screen and (min-width:480px) and (max-width:600px){
+    .about-sec{
+        flex-direction: column;
+        height:1180px;
+        padding: 20px;
+    }
+    .about-para p {
+          font-size:15px;
+    }
+    .about-para{
+        width:100%;
+    }
+    .about-sec img{
+        width:400px;
+        height:400px;
+    }  
+    .container-box{
+        height: 1300px;
+    }
+    .heading { 
+        font-size:45px;
+        padding-top:60px;
+    }    
+
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .about-sec{
+        flex-direction: column;
+        height:1100px;
+        padding: 20px;
+    }
+    .about-para p {
+          font-size:18px;
+    }
+    .about-para{
+        width:100%;
+    }
+    .about-sec img{
+        width:400px;
+        height:400px;
+    }
+    .container-box{
+        height:1300px;
+    }
+    .f-rights::after{
+        width:0;
+       }
+       .f-rights::before{
+        width:0;
+       }
+       footer{
+         height: 900px;
+         flex-direction: column;
+         padding: 13px;
+       }
+       .wrap{
+        padding:0;
+        gap:30px;
+        padding-bottom:50px;
+        flex-direction: column;
+       }
+
+       .f-cont{
+        margin-left:30px;
+       }
+       .f-cont1{
+        margin-left:50px;
+       }
+       .wrap img{
+        width:200px;
+        height:200px; 
+       }
+    
+   
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    .container-box{
+        height: 900px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:900px){
+     .add-cart{
+        padding:30px;
+        padding-top:90px;
+    }
+    .add-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    } 
+    .master{
+        overflow: hidden;
+    }
+    
+    
+    #form{
+        overflow: hidden;
+    }
+}
+  
+   
+    
+
+
