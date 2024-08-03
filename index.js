@@ -64,7 +64,7 @@ let products = [
     {
         id: 1,
         name: 'intro Fabric Designer ',
-        image: 'cls1.JPG',
+        image: 'cls1.jpg',
         price: 1999
 
     },
